@@ -46,6 +46,7 @@ FILE *fp1;
 FILE *fp2;
 FILE *temp1;
 FILE *temp2;
+
 int main()
 {
     int choice = 0, i;
@@ -201,6 +202,7 @@ void Author()
         fclose(librecord);
     }
 }
+
 void Titlelist()
 {
     int i;
@@ -238,6 +240,7 @@ void Titlelist()
         fclose(librecord);
     }
 }
+
 void Stock()
 {
     int i, issuecount = 0, stockcount = 0;
@@ -265,6 +268,7 @@ void Stock()
         printf("\nCount of issued Books:%d\nCount of Books in Stock:%d\n", issuecount, stockcount - 1);
     }
 }
+
 void Addmembr()
 {
     int i;
@@ -284,6 +288,7 @@ void Addmembr()
     fclose(membrrecord);
     printf("\n (' ') Added  A New member Successfully...\n");
 }
+
 void Issue()
 {
     int mid, i, Found1 = 0, Found2 = 0;
