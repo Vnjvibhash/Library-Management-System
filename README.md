@@ -12,5 +12,5 @@
 
 
 It Create 2 text file in project Directory To Resembles Records
-1.librecord.txt
-2.membrrecord.txt
+1. librecord.txt
+2. membrrecord.txt
